@@ -4,49 +4,41 @@ _Last updated: 2026-09-23_
 
 ## Current phase
 
-**Phase 0 — Strategy & architecture**
-
-## Repository state
-
-The repository currently contains the project strategy and implementation blueprint. The production website has **not yet been implemented in this repository**.
-
-## Confirmed decisions
-
-- Domain: `housniahmed.com`
-- Repository: `housniahmed/housniahmed.com`
-- Positioning: **AI Engineer building intelligent systems, automations and digital products**
-- Site role: personal professional hub / proof-of-work system
-- Primary audiences: recruiters, businesses, technical peers, researchers, collaborators
-- Signature project: AHMED AI OS
-- Primary language for launch: English
-- Initial stack direction: Next.js + TypeScript + Tailwind + shadcn/ui + MDX
-- Versioning: GitHub is the source of truth
-
-## Assets / work already available conceptually
-
-The strategy incorporates the following project areas that can become verified site content:
-
-- AHMED AI OS
-- AI engineering training and project work
-- StoryKids
-- doctoral / engineering research
-- digital marketing and automation experience
-- relevant entrepreneurship / product work
-
-Each item must be audited before publication so that the site reflects evidence rather than assumptions.
-
-## Next immediate milestone
-
 **Phase 1 — Foundation**
 
-Create the codebase and design system, then implement the first production-quality homepage.
+## Completed in this phase
 
-## Working rule
+- [x] Initialize Next.js + TypeScript foundation
+- [x] Establish App Router structure
+- [x] Add Tailwind CSS v4 tooling
+- [x] Establish a minimal design system with CSS tokens
+- [x] Add global metadata and canonical domain
+- [x] Add Open Graph metadata
+- [x] Add robots.txt generation
+- [x] Add sitemap generation
+- [x] Add responsive homepage foundation
+- [x] Add initial site navigation and footer
+- [x] Add placeholder routes for the planned information architecture
+- [x] Add repository-level workflow and documentation
 
-When a feature is implemented:
+## Important verification note
 
-1. update code
-2. update documentation if architecture/content changed
-3. update project status
-4. commit with a meaningful message
-5. keep `main` deployable whenever practical
+The GitHub repository now contains the implementation scaffold and first homepage code. **Local dependency installation, linting, build, and deployment have not been executed from this environment**, so runtime/build status remains to be verified locally or in CI.
+
+## Current public-content status
+
+The homepage copy is a strategic first version. Project details remain intentionally conservative until source material is audited.
+
+The following are placeholders and must not be treated as completed implementations:
+
+- detailed AI OS modules
+- case studies
+- resume content
+- research claims
+- contact workflow
+- writing content
+- production deployment
+
+## Next milestone
+
+Complete and verify the foundation locally, then move to **Phase 2 — Homepage refinement & core proof pages**.
