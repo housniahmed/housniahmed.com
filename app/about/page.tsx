@@ -6,7 +6,7 @@ export default function AboutPage() {
       <p className="eyebrow">ABOUT</p>
       <h1>From engineering to AI.</h1>
       <p className="hero-copy">A concise professional narrative will connect engineering, entrepreneurship, research and AI engineering.</p>
-      <a className="text-link" href="/">← Back home</Link>
+      <Link className="text-link" href="/">← Back home</Link>
     </main>
   );
 }
