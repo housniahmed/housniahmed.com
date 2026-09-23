@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const focusAreas = [
   {
     title: "AI Engineering",
@@ -62,17 +64,17 @@ export default function Home() {
       <header className="site-header">
         <a className="brand" href="/" aria-label="Ahmed El-Housni home">
           AHMED EL-HOUSNI
-        </a>
+        </Link>
         <nav aria-label="Primary navigation">
-          <a href="/work">Work</a>
-          <a href="/ai-os">AI OS</a>
-          <a href="/research">Research</a>
-          <a href="/writing">Writing</a>
-          <a href="/about">About</a>
+          <Link href="/work">Work</Link>
+          <Link href="/ai-os">AI OS</Link>
+          <Link href="/research">Research</Link>
+          <Link href="/writing">Writing</Link>
+          <Link href="/about">About</Link>
         </nav>
         <a className="header-cta" href="/contact">
           Let&apos;s work together
-        </a>
+        </Link>
       </header>
 
       <section className="hero section">
@@ -85,10 +87,10 @@ export default function Home() {
         <div className="actions">
           <a className="button button-primary" href="/work">
             Explore my work
-          </a>
+          </Link>
           <a className="button button-secondary" href="/contact">
             Let&apos;s work together
-          </a>
+          </Link>
         </div>
         <p className="availability">
           Based in Morocco · Working globally · Open to selected AI engineering,
@@ -122,7 +124,7 @@ export default function Home() {
           </p>
           <a className="text-link" href="/ai-os">
             Explore the architecture →
-          </a>
+          </Link>
         </div>
         <div className="system-map" aria-label="AHMED AI OS modules">
           {["Memory", "Knowledge", "Agents", "Planning", "Workflows", "Evaluation", "Observability", "Security"].map(
@@ -141,7 +143,7 @@ export default function Home() {
           </div>
           <a className="text-link" href="/work">
             View all work →
-          </a>
+          </Link>
         </div>
         <div className="project-list">
           {projects.map((project) => (
@@ -153,7 +155,7 @@ export default function Home() {
                 <span className="project-description">{project.description}</span>
               </span>
               <span aria-hidden="true">↗</span>
-            </a>
+            </Link>
           ))}
         </div>
       </section>
@@ -177,15 +179,15 @@ export default function Home() {
         </p>
         <a className="button button-primary" href="/contact">
           Start a conversation
-        </a>
+        </Link>
       </section>
 
       <footer className="site-footer">
         <span>© {new Date().getFullYear()} Ahmed El-Housni</span>
         <div>
-          <a href="/resume">Resume</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
+          <Link href="/resume">Resume</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </footer>
     </main>
