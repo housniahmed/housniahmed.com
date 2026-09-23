@@ -47,7 +47,7 @@ export default function StoryKidsPage() {
             </div>
           </div>
           <div className="case-fact-card">
-            <span>PRODUCT</span><strong>Personalized children's stories</strong>
+            <span>PRODUCT</span><strong>Personalized children&apos;s stories</strong>
             <span>MARKETS</span><strong>Europe · Morocco</strong>
             <span>ROLE</span><strong>Product · marketing · automation · technical execution</strong>
           </div>
