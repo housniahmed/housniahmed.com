@@ -4,41 +4,73 @@ _Last updated: 2026-09-23_
 
 ## Current phase
 
-**Phase 1 — Foundation**
+**Phase 1 — Foundation — completed**
 
-## Completed in this phase
+## Verified implementation
 
-- [x] Initialize Next.js + TypeScript foundation
-- [x] Establish App Router structure
-- [x] Add Tailwind CSS v4 tooling
-- [x] Establish a minimal design system with CSS tokens
-- [x] Add global metadata and canonical domain
-- [x] Add Open Graph metadata
-- [x] Add robots.txt generation
-- [x] Add sitemap generation
-- [x] Add responsive homepage foundation
-- [x] Add initial site navigation and footer
-- [x] Add placeholder routes for the planned information architecture
-- [x] Add repository-level workflow and documentation
+- [x] Next.js + TypeScript App Router foundation
+- [x] Tailwind CSS tooling
+- [x] Production-oriented design system and responsive CSS
+- [x] Production homepage V1
+- [x] Reusable header and footer components
+- [x] Global metadata and canonical domain
+- [x] Open Graph metadata
+- [x] Sitemap generation
+- [x] Robots generation
+- [x] Placeholder routes for the planned information architecture
+- [x] GitHub Actions CI
+- [x] ESLint verification
+- [x] TypeScript verification
+- [x] Next.js production build verification
 
-## Important verification note
+## CI verification
 
-The GitHub repository now contains the implementation scaffold and first homepage code. **Local dependency installation, linting, build, and deployment have not been executed from this environment**, so runtime/build status remains to be verified locally or in CI.
+The latest GitHub Actions verification run completed successfully:
 
-## Current public-content status
+- Install dependencies: **success**
+- Lint: **success**
+- Production build: **success**
 
-The homepage copy is a strategic first version. Project details remain intentionally conservative until source material is audited.
+This verifies the repository's current implementation at the CI level.
 
-The following are placeholders and must not be treated as completed implementations:
+## Homepage V1
 
-- detailed AI OS modules
-- case studies
+The homepage now establishes the intended visual direction:
+
+- editorial / engineering-oriented aesthetic
+- strong typographic hierarchy
+- restrained color system
+- AI OS as the signature project
+- proof-of-work project list
+- engineering-to-AI narrative
+- research positioning
+- direct opportunity CTA
+- responsive behavior for desktop, tablet and mobile
+
+## Content status
+
+The visual foundation is now in place, but several pages remain intentionally conservative placeholders until source material is audited:
+
+- detailed case studies
+- full AI OS documentation
 - resume content
-- research claims
+- research content
+- writing
 - contact workflow
-- writing content
-- production deployment
+- production deployment configuration
 
 ## Next milestone
 
-Complete and verify the foundation locally, then move to **Phase 2 — Homepage refinement & core proof pages**.
+**Phase 2 — Proof & Content**
+
+The next work should focus on replacing placeholders with verified evidence, starting with the strongest proof assets and the AHMED AI OS case study.
+
+## Working rule
+
+When a feature is implemented:
+
+1. update code
+2. update documentation if architecture/content changed
+3. update project status
+4. commit with a meaningful message
+5. keep `main` deployable whenever practical
