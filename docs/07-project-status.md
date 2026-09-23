@@ -4,42 +4,66 @@ _Last updated: 2026-09-23_
 
 ## Current phase
 
-**Phase 0 — Strategy & architecture**
+**Phase 1 — Foundation — completed**
 
-## Repository state
+## Verified implementation
 
-The repository currently contains the project strategy and implementation blueprint. The production website has **not yet been implemented in this repository**.
+- [x] Next.js + TypeScript App Router foundation
+- [x] Tailwind CSS tooling
+- [x] Production-oriented design system and responsive CSS
+- [x] Production homepage V1
+- [x] Reusable header and footer components
+- [x] Global metadata and canonical domain
+- [x] Open Graph metadata
+- [x] Sitemap generation
+- [x] Robots generation
+- [x] Placeholder routes for the planned information architecture
+- [x] GitHub Actions CI
+- [x] ESLint verification
+- [x] TypeScript verification
+- [x] Next.js production build verification
 
-## Confirmed decisions
+## CI verification
 
-- Domain: `housniahmed.com`
-- Repository: `housniahmed/housniahmed.com`
-- Positioning: **AI Engineer building intelligent systems, automations and digital products**
-- Site role: personal professional hub / proof-of-work system
-- Primary audiences: recruiters, businesses, technical peers, researchers, collaborators
-- Signature project: AHMED AI OS
-- Primary language for launch: English
-- Initial stack direction: Next.js + TypeScript + Tailwind + shadcn/ui + MDX
-- Versioning: GitHub is the source of truth
+The latest GitHub Actions verification run completed successfully:
 
-## Assets / work already available conceptually
+- Install dependencies: **success**
+- Lint: **success**
+- Production build: **success**
 
-The strategy incorporates the following project areas that can become verified site content:
+This verifies the repository's current implementation at the CI level.
 
-- AHMED AI OS
-- AI engineering training and project work
-- StoryKids
-- doctoral / engineering research
-- digital marketing and automation experience
-- relevant entrepreneurship / product work
+## Homepage V1
 
-Each item must be audited before publication so that the site reflects evidence rather than assumptions.
+The homepage now establishes the intended visual direction:
 
-## Next immediate milestone
+- editorial / engineering-oriented aesthetic
+- strong typographic hierarchy
+- restrained color system
+- AI OS as the signature project
+- proof-of-work project list
+- engineering-to-AI narrative
+- research positioning
+- direct opportunity CTA
+- responsive behavior for desktop, tablet and mobile
 
-**Phase 1 — Foundation**
+## Content status
 
-Create the codebase and design system, then implement the first production-quality homepage.
+The visual foundation is now in place, but several pages remain intentionally conservative placeholders until source material is audited:
+
+- detailed case studies
+- full AI OS documentation
+- resume content
+- research content
+- writing
+- contact workflow
+- production deployment configuration
+
+## Next milestone
+
+**Phase 2 — Proof & Content**
+
+The next work should focus on replacing placeholders with verified evidence, starting with the strongest proof assets and the AHMED AI OS case study.
 
 ## Working rule
 
