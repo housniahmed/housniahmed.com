@@ -62,7 +62,7 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="/" aria-label="Ahmed El-Housni home">
+        <Link className="brand" href="/" aria-label="Ahmed El-Housni home">
           AHMED EL-HOUSNI
         </Link>
         <nav aria-label="Primary navigation">
@@ -72,7 +72,7 @@ export default function Home() {
           <Link href="/writing">Writing</Link>
           <Link href="/about">About</Link>
         </nav>
-        <a className="header-cta" href="/contact">
+        <Link className="header-cta" href="/contact">
           Let&apos;s work together
         </Link>
       </header>
@@ -85,10 +85,10 @@ export default function Home() {
           products — backed by an engineering and research background.
         </p>
         <div className="actions">
-          <a className="button button-primary" href="/work">
+          <Link className="button button-primary" href="/work">
             Explore my work
           </Link>
-          <a className="button button-secondary" href="/contact">
+          <Link className="button button-secondary" href="/contact">
             Let&apos;s work together
           </Link>
         </div>
@@ -122,7 +122,7 @@ export default function Home() {
             knowledge, agents, planning and workflows into a coherent,
             measurable AI environment.
           </p>
-          <a className="text-link" href="/ai-os">
+          <Link className="text-link" href="/ai-os">
             Explore the architecture →
           </Link>
         </div>
@@ -141,7 +141,7 @@ export default function Home() {
             <p className="eyebrow">SELECTED WORK</p>
             <h2 id="work-title">Proof over claims.</h2>
           </div>
-          <a className="text-link" href="/work">
+          <Link className="text-link" href="/work">
             View all work →
           </Link>
         </div>
@@ -177,7 +177,7 @@ export default function Home() {
           I work on selected AI engineering, automation and AI prototyping
           projects.
         </p>
-        <a className="button button-primary" href="/contact">
+        <Link className="button button-primary" href="/contact">
           Start a conversation
         </Link>
       </section>
