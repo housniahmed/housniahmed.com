@@ -15,7 +15,7 @@
 
 ## Phase 1 — Foundation
 
-**Status: implementation complete; verification pending**
+**Status: completed and verified**
 
 - [x] Initialize Next.js + TypeScript
 - [x] Configure Tailwind CSS tooling
@@ -26,8 +26,8 @@
 - [x] Add sitemap / robots
 - [x] Add reusable base navigation / footer
 - [x] Add placeholder routes for the planned IA
-- [ ] Run dependency installation and verify build
-- [ ] Run lint and resolve issues
+- [x] Run dependency installation and verify build
+- [x] Run lint and resolve issues
 - [ ] Verify deployment
 
 ## Phase 2 — Homepage refinement & core proof
