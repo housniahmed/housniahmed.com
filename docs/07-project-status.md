@@ -6,6 +6,16 @@ _Last updated: 2026-09-23_
 
 **Phase 2 — Proof & Content — in progress**
 
+### Phase 2.2 — Work Index + StoryKids
+
+- [x] Structured `/work` portfolio index
+- [x] Evidence-first project cards
+- [x] `/work/storykids` case study
+- [x] StoryKids product architecture and customer journey
+- [x] Europe vs Morocco conversion-path distinction
+- [x] Conservative technical / commerce claims based on the StoryKids repository
+- [x] Responsive styling
+
 ## Phase 1 — Foundation
 
 Completed and verified:
