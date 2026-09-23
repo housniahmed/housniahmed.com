@@ -4,42 +4,75 @@ _Last updated: 2026-09-23_
 
 ## Current phase
 
-**Phase 0 — Strategy & architecture**
+**Phase 2 — Proof & Content — in progress**
 
-## Repository state
+### Phase 2.2 — Work Index + StoryKids
 
-The repository currently contains the project strategy and implementation blueprint. The production website has **not yet been implemented in this repository**.
+- [x] Structured `/work` portfolio index
+- [x] Evidence-first project cards
+- [x] `/work/storykids` case study
+- [x] StoryKids product architecture and customer journey
+- [x] Europe vs Morocco conversion-path distinction
+- [x] Conservative technical / commerce claims based on the StoryKids repository
+- [x] Responsive styling
 
-## Confirmed decisions
+## Phase 1 — Foundation
 
-- Domain: `housniahmed.com`
-- Repository: `housniahmed/housniahmed.com`
-- Positioning: **AI Engineer building intelligent systems, automations and digital products**
-- Site role: personal professional hub / proof-of-work system
-- Primary audiences: recruiters, businesses, technical peers, researchers, collaborators
-- Signature project: AHMED AI OS
-- Primary language for launch: English
-- Initial stack direction: Next.js + TypeScript + Tailwind + shadcn/ui + MDX
-- Versioning: GitHub is the source of truth
+Completed and verified:
 
-## Assets / work already available conceptually
+- [x] Next.js + TypeScript App Router foundation
+- [x] Tailwind CSS tooling
+- [x] Production-oriented design system and responsive CSS
+- [x] Production homepage V1
+- [x] Reusable header and footer components
+- [x] Global metadata and canonical domain
+- [x] Open Graph metadata
+- [x] Sitemap generation
+- [x] Robots generation
+- [x] Planned route structure
+- [x] GitHub Actions CI
+- [x] ESLint verification
+- [x] TypeScript verification
+- [x] Next.js production build verification
 
-The strategy incorporates the following project areas that can become verified site content:
+## Phase 2 — Proof & Content
 
-- AHMED AI OS
-- AI engineering training and project work
-- StoryKids
-- doctoral / engineering research
-- digital marketing and automation experience
-- relevant entrepreneurship / product work
+### AHMED AI OS case study
 
-Each item must be audited before publication so that the site reflects evidence rather than assumptions.
+Implemented on `/ai-os`:
 
-## Next immediate milestone
+- [x] Project positioning and problem statement
+- [x] Architecture overview based on the AHMED AI OS repository
+- [x] Explicit KNOW → INFER → PROPOSE → APPROVE → EXECUTE flow
+- [x] Engineering principles
+- [x] Milestone view covering documented B1–B38 boundaries
+- [x] Current implementation vs production-gap status
+- [x] Direct source-repository link
+- [x] Responsive case-study styling
+- [x] Conservative wording around external integrations and production readiness
 
-**Phase 1 — Foundation**
+### Source verification
 
-Create the codebase and design system, then implement the first production-quality homepage.
+The case study was cross-checked against the current AHMED AI OS repository documentation, including the system composition root, agent runtime, orchestration, governance, security, observability, evaluation, API, web, deployment and model-intelligence boundaries.
+
+Important content rule:
+
+> The website must not imply live provider connectivity, production readiness, benchmark performance or completed external integrations unless the underlying project evidence verifies it.
+
+## Remaining Phase 2 work
+
+- [ ] Build the Work index with evidence-first project cards
+- [ ] Build the StoryKids case study from verified product/source material
+- [ ] Build the AI Engineering / LLM work case study from verified repositories and training artifacts
+- [ ] Replace the Research placeholder with verified doctoral/research content
+- [ ] Replace Resume placeholder with the current CV
+- [ ] Build the Writing index and first articles
+- [ ] Define the production Contact workflow
+- [ ] Add structured metadata to case-study pages after content stabilizes
+
+## Next milestone
+
+**Phase 2.2 — Work index + StoryKids case study**
 
 ## Working rule
 
@@ -48,5 +81,6 @@ When a feature is implemented:
 1. update code
 2. update documentation if architecture/content changed
 3. update project status
-4. commit with a meaningful message
-5. keep `main` deployable whenever practical
+4. verify lint, TypeScript and production build
+5. commit with a meaningful message
+6. keep `main` deployable whenever practical
