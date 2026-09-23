@@ -147,7 +147,7 @@ export default function Home() {
         </div>
         <div className="project-list">
           {projects.map((project) => (
-            <a className="project-row" href={project.href} key={project.number}>
+            <Link className="project-row" href={project.href} key={project.number}>
               <span className="project-number">{project.number}</span>
               <span>
                 <span className="project-category">{project.category}</span>
