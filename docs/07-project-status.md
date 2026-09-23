@@ -4,9 +4,11 @@ _Last updated: 2026-09-23_
 
 ## Current phase
 
-**Phase 1 — Foundation — completed**
+**Phase 2 — Proof & Content — in progress**
 
-## Verified implementation
+## Phase 1 — Foundation
+
+Completed and verified:
 
 - [x] Next.js + TypeScript App Router foundation
 - [x] Tailwind CSS tooling
@@ -17,53 +19,50 @@ _Last updated: 2026-09-23_
 - [x] Open Graph metadata
 - [x] Sitemap generation
 - [x] Robots generation
-- [x] Placeholder routes for the planned information architecture
+- [x] Planned route structure
 - [x] GitHub Actions CI
 - [x] ESLint verification
 - [x] TypeScript verification
 - [x] Next.js production build verification
 
-## CI verification
+## Phase 2 — Proof & Content
 
-The latest GitHub Actions verification run completed successfully:
+### AHMED AI OS case study
 
-- Install dependencies: **success**
-- Lint: **success**
-- Production build: **success**
+Implemented on `/ai-os`:
 
-This verifies the repository's current implementation at the CI level.
+- [x] Project positioning and problem statement
+- [x] Architecture overview based on the AHMED AI OS repository
+- [x] Explicit KNOW → INFER → PROPOSE → APPROVE → EXECUTE flow
+- [x] Engineering principles
+- [x] Milestone view covering documented B1–B38 boundaries
+- [x] Current implementation vs production-gap status
+- [x] Direct source-repository link
+- [x] Responsive case-study styling
+- [x] Conservative wording around external integrations and production readiness
 
-## Homepage V1
+### Source verification
 
-The homepage now establishes the intended visual direction:
+The case study was cross-checked against the current AHMED AI OS repository documentation, including the system composition root, agent runtime, orchestration, governance, security, observability, evaluation, API, web, deployment and model-intelligence boundaries.
 
-- editorial / engineering-oriented aesthetic
-- strong typographic hierarchy
-- restrained color system
-- AI OS as the signature project
-- proof-of-work project list
-- engineering-to-AI narrative
-- research positioning
-- direct opportunity CTA
-- responsive behavior for desktop, tablet and mobile
+Important content rule:
 
-## Content status
+> The website must not imply live provider connectivity, production readiness, benchmark performance or completed external integrations unless the underlying project evidence verifies it.
 
-The visual foundation is now in place, but several pages remain intentionally conservative placeholders until source material is audited:
+## Remaining Phase 2 work
 
-- detailed case studies
-- full AI OS documentation
-- resume content
-- research content
-- writing
-- contact workflow
-- production deployment configuration
+- [ ] Build the Work index with evidence-first project cards
+- [ ] Build the StoryKids case study from verified product/source material
+- [ ] Build the AI Engineering / LLM work case study from verified repositories and training artifacts
+- [ ] Replace the Research placeholder with verified doctoral/research content
+- [ ] Replace Resume placeholder with the current CV
+- [ ] Build the Writing index and first articles
+- [ ] Define the production Contact workflow
+- [ ] Add structured metadata to case-study pages after content stabilizes
 
 ## Next milestone
 
-**Phase 2 — Proof & Content**
-
-The next work should focus on replacing placeholders with verified evidence, starting with the strongest proof assets and the AHMED AI OS case study.
+**Phase 2.2 — Work index + StoryKids case study**
 
 ## Working rule
 
@@ -72,5 +71,6 @@ When a feature is implemented:
 1. update code
 2. update documentation if architecture/content changed
 3. update project status
-4. commit with a meaningful message
-5. keep `main` deployable whenever practical
+4. verify lint, TypeScript and production build
+5. commit with a meaningful message
+6. keep `main` deployable whenever practical
